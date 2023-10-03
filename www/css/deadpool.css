@@ -1,0 +1,153 @@
+  @import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Marko+One&family=Orbitron&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Marko+One&family=Orbitron&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h3{
+  color: white;
+  margin-top: -80px;
+  font-size: 20px;
+  font-family: 'Marko One', serif;
+}
+
+h5{
+   color: white;
+   margin-top: -20px;
+   font-size: 16px;
+   font-family: 'Orbitron', sans-serif;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+  font-size: 12px;
+}
+
+.linha{
+    width: 290px;
+    height: 8px;
+    margin-top: 1px;
+}
+
+.Deadpool{
+    width: 70px;
+    height: 74px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.deadpool{
+    width: 70px;
+    height: 74px;
+    margin-left: 160px;
+}
+
+.TITULO{
+    color: rgb(247, 15, 15);
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.titulo01{
+    color: white;
+    margin-left:53px;
+    margin-top: -26px;
+}
+
+.titulo02{
+    color: white;
+    margin-left:78px;
+    margin-top: -26px;
+}
+
+.titulo02continuacao{
+    color: white;
+    margin-left:20px;
+    margin-top: -26px;
+}
+
+.titulo03{
+    color: white;
+    margin-left:65px;
+    margin-top: -26px;
+}
+
+.titulo04{
+    color: white;
+    margin-left:77px;
+    margin-top: -26px;
+}
+
+.titulo05{
+     color: white;
+    margin-left:80px;
+    margin-top: -26px;
+}
+
+.descricao01{
+    color: white;
+    margin-left: 20px ;
+    margin-top: -30px;
+}
+
+.descricaocolorida{
+    color: rgb(247, 15, 15);
+    margin-left: 73px;
+    margin-top: -27px;
+}
+
+.descricao02{
+    color: white;
+    margin-left: 127px ;
+    margin-top: -27px;
+}
+
+.descricaocolorida2{
+    color: rgb(247, 15, 15);
+    margin-left: 165px;
+    margin-top: -27px;
+}
+
+.descricao03{
+    color: white;
+    margin-left: 208px;
+    margin-top: -27px;
+}
+
+.btnVoltar{
+    width: 100px;
+    height: 30px;
+    border-radius: 16px;
+    margin-top: 40px;
+   font-size: 12px;
+    background-color: rgb(212, 5, 5);
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    border: black;
+}
+
+.btnVoltar:hover {
+  background-color: rgb(255, 0, 0); 
+  transform: scale(1.1); 
+}
+
+
+.marvel{
+  width: 110px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.text1 {
+margin-left: 20px;
+}
+
+.text2{
+    margin-left: 20px;
+}

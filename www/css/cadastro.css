@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+ #Senha.valid {
+            border-color: green;
+        }
+
+        /* Estilos para quando a senha é inválida */
+        #Senha.invalid {
+            border-color: red;
+        }
+
+        #mensagemSenha {
+            color: red;
+        }
+        
+h4{
+    color:white;
+    font-size: 20px;
+    margin-top: -5px;
+}
+.barra1{
+    width: 290px;
+    height: 8px;
+    margin-top: 1px;
+    
+}
+.simbolo{
+margin-top:  10px;
+width: 46px;
+height: 55px;
+}
+fieldset{
+    width: 200px;
+    height: 165px;
+    border-radius: 10px;
+    border-color: #ab2bfa;
+    
+
+}
+input{
+   
+    background-color: #51108E;
+    border-bottom-color:#9946E7;
+    border-top-color: #51108E;
+    outline: none;
+    border-right:none;
+
+    color: white;
+     text-align: center;
+}
+p{
+    font-size: 13px;
+
+}
+.marvel{
+     width: 110px;
+  height: 30px;
+  margin-top: 10px;
+
+}
+.barra2{
+    width: 290px;
+    height: 8px;
+    margin-top: -10px;
+
+}
+.btnCancelar{
+    width: 100px;
+    height: 30px;
+    border-radius: 16px;
+    margin-bottom: 40px;
+   font-size: 12px;
+    background-color: #ab2bfa;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    border: black;
+}
+.btnCancelar:hover {
+  background-color: #8123bb; 
+  transform: scale(1.1); 
+}
+.btnCadastrar{
+    width: 100px;
+    height: 30px;
+       font-size: 12px;
+    border-radius: 16px;
+    margin-bottom: 60px;
+      background-color: #ab2bfa;
+     margin-left: 10px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    border: black;
+}
+.btnCadastrar:hover {
+  background-color: #8123bb; 
+  transform: scale(1.1); 
+}
+input:required{
+    color: white;
+}

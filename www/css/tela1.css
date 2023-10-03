@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+   background-color: black;
+   color: white;
+}
+.barra1{
+    width: 290px;
+    height: 8px;
+    margin-top: 1px;
+  
+}
+h4 {
+    font-size: 16px;
+}
+p{
+    font-size: 14px;
+}
+.btnCadastrar{
+    width: 100px;
+    height: 30px;
+    border-radius: 16px;
+    margin-bottom: 40px;
+   font-size: 12px;
+    background-color: #ab2bfa;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    border: black;
+}
+.btnEntrar{
+    width: 100px;
+    height: 30px;
+       font-size: 12px;
+    border-radius: 16px;
+    margin-bottom: 60px;
+      background-color: #ab2bfa;
+     margin-left: 10px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    border: black;
+}
+.btnEntrar:hover {
+  background-color: #8123bb; 
+  transform: scale(1.1); 
+}
+
+.btnCadastrar:hover {
+  background-color: #8123bb; 
+  transform: scale(1.1); 
+}
+.simbolo{
+margin-top:  4px;
+width: 100px;
+height: 98px;
+}
+
+.img{    
+    width: 300px;
+     height: 190px;
+     border-radius: 15px;
+    
+    
+}
+.marvel{
+     width: 110px;
+  height: 30px;
+  margin-top: 10px;
+
+}
+.barra2{
+     width: 290px;
+    height: 8px;
+    margin-top: -10px;
+   
+}

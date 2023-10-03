@@ -1,0 +1,114 @@
+  @import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Marko+One&family=Orbitron&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Marko+One&family=Orbitron&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo-foto {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.fundo-foto .foto {
+    height: 100vh;
+}
+
+.fundo-foto::after {
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 100%);
+}
+
+h3{
+  color: white;
+  margin-top: -80px;
+  font-size: 20px;
+  font-family: 'Marko One', serif;
+}
+
+p{
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+}
+
+.linha{
+    width: 290px;
+    height: 8px;
+    margin-top: 1px;
+}
+
+.pergunta{
+    width: 290px;
+    height: 40px;
+    margin-top: 1px;
+}
+
+.alternativaA{
+    margin-left: 30px ;
+    margin-top: -27px;
+}
+
+.btnA{
+    width: 100px;
+    height: 30px;
+    margin-top: 40px;
+    font-size: 12px;
+    background-color: rgb(212, 5, 5);
+    color: white;
+    text-transform: none;
+    cursor: pointer;
+    outline: none;
+    border: black;
+}
+
+.btnA:hover{
+    transform: scale(1.1);
+    background-color: rgb(250, 103, 103);
+}
+
+.localidadebtnA {
+    left: 60px;
+    position: absolute;
+}
+
+.localidadebtnB {
+    left: 220px;
+    position: absolute;
+}
+
+.btnVoltar{
+    width: 100px;
+    height: 30px;
+    border-radius: 16px;
+    margin-top: 40px;
+   font-size: 12px;
+    background-color: rgb(212, 5, 5);
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    border: black;
+}
+
+.btnVoltar:hover {
+  background-color: rgb(255, 0, 0); 
+  transform: scale(1.1); 
+}
+
+.marvel{
+  width: 110px;
+  height: 30px;
+  margin-top: 10px;
+}
