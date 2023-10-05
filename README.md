@@ -10,7 +10,7 @@
 
 -> O aplicativo desenvolvido, possue uma tela inicial para escolha do cadastro ou login do aplicativo, com o armazenamento dos dados e até mesmo a verificação dos dados válidos. 
 
--> Ao acessar o aplicativo na tela de home possui três escolhas do aplicativo: Consultar e pesquisar uma Enciclopédia dos Filmes da Marvel, Consultar e pesquisar uma Enciclopédia dos personagens da Marvel e um Quiz Interativo para teste de conhecimento dos fans da Marvel. 
+-> Ao acessar o aplicativo na tela de home possui três escolhas do aplicativo: Consultar e pesquisar uma Enciclopédia dos Filmes da Marvel, Consultar e pesquisar uma Enciclopédia dos personagens da Marvel, e um Quiz Interativo para teste de conhecimento dos fans da Marvel. 
 
 #
 
